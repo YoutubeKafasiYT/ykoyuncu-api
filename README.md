@@ -1,5 +1,7 @@
 Şuanlık Olan Apiler;
+
 Döviz
+
 Örnekler
 
     Bu örnekte nasıl Döviz Listesini alacağınız gösterilmiş.
@@ -13,7 +15,9 @@ Döviz
 	
       console.log(res);
       })();
-
+      
+      
+      
     Bu örnekte nasıl Döviz Bilgilerini alacağınız gösterilmiş.
 
      (async () => {
