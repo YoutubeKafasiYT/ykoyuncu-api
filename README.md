@@ -19,7 +19,10 @@ console.log(res);
 
 (async () => {
 const YKOyuncu = require('ykoyuncu-api');
-	const Doviz = new YKOyuncu();
-		const res = await Doviz.getKur("USD");
-    console.log(res);
+
+const Doviz = new YKOyuncu();
+		
+const res = await Doviz.getKur("USD");
+
+console.log(res);
 })();
