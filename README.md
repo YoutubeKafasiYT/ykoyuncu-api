@@ -1,7 +1,9 @@
 Şuanlık Olan Apiler;
 Döviz
 Örnekler
+
     Bu örnekte nasıl Döviz Listesini alacağınız gösterilmiş.
+    
 (async () => {
 	const YKOyuncu = require('ykoyuncu-api');
 	const Doviz = new YKOyuncu();
