@@ -42,6 +42,6 @@ Döviz
 
         const res = await Doviz.guncelTarih();
 	 
-	console.log(res);
+	  console.log(res);
     })();
 
