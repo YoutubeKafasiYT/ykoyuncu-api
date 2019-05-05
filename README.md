@@ -27,7 +27,7 @@ Döviz
 		
      const res = await Doviz.getKur("USD");
 
-    console.log(res);
+     console.log(res);
     })();
       
       
@@ -38,7 +38,7 @@ Döviz
      (async () => {
 	const YKOyuncu = require('ykoyuncu-api');
 
-      const Doviz = new YKOyuncu();
+        const Doviz = new YKOyuncu();
 
         const res = await Doviz.guncelTarih();
 	console.log(res);
