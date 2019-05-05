@@ -29,9 +29,10 @@ Döviz
 
     console.log(res);
     })();
-
-
-    Bu örnekte nasıl Dövizlerin Güncellendiği Tarihi alacağınız gösterilmiş.
+      
+      
+      
+      Bu örnekte nasıl Dövizlerin Güncellendiği Tarihi alacağınız gösterilmiş.
 
 
      (async () => {
