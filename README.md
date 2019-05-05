@@ -7,7 +7,7 @@ Döviz
     Bu örnekte nasıl Döviz Listesini alacağınız gösterilmiş.
     
        (async () => {
-       const YKOyuncu = require('ykoyuncu-api');
+      const YKOyuncu = require('ykoyuncu-api');
 
       const Doviz = new YKOyuncu();
 	
@@ -36,9 +36,11 @@ Döviz
 
 
      (async () => {
-	const TCMB_Doviz = require('tcmb-doviz');
-	const Doviz = new TCMB_Doviz();
-	const res = await Doviz.guncelTarih();
+	const YKOyuncu = require('ykoyuncu-api');
+
+      const Doviz = new YKOyuncu();
+
+        const res = await Doviz.guncelTarih();
 	console.log(res);
     })();
 
