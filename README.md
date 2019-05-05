@@ -41,6 +41,6 @@ Döviz
         const Doviz = new YKOyuncu();
 
         const res = await Doviz.guncelTarih();
-	console.log(res);
+	 console.log(res);
     })();
 
